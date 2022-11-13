@@ -2,7 +2,11 @@
 
 git clone https://github.com/sainnhe/everforest.git
 
-mkdir -p ~/.vim/{autoload,colors,doc}
+mkdir -p ~/.vim/autoload
+
+mkdir -p ~/.vim/colors
+
+mkdir -p ~/.vim/doc
 
 cp everforest/autoload/everforest.vim ~/.vim/autoload/
 
