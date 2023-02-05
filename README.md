@@ -9,6 +9,6 @@ This will create a new directory containing a .vimrc file and a shell script tha
 
 1) git clone <repo link>
 
-2) ./everforest.sh
+2) cd vimconfig && ./everforest.sh
 
-3) rm -rf vimconfig
+3) cd .. && rm -rf vimconfig
